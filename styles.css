@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section#home img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+section h2 {
+    color: #2e8b57;
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+section p {
+    line-height: 1.6;
+    margin: 15px 0;
+    font-size: 1em;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 8px 0;
+    background-color: #2e8b57;
+    color: white;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    section h2 {
+        font-size: 1.4em;
+    }
+
+    section p, section ul {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    section h2 {
+        font-size: 1.2em;
+    }
+
+    section p, section ul {
+        font-size: 0.85em;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
